@@ -16,5 +16,6 @@ const config: Config = {
     },
   },
   plugins: [],
+  types : ["fullpage.js"]
 };
 export default config;
