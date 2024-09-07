@@ -5,6 +5,9 @@ body {
   color: #333;
   
 }
+html {
+  scroll-behavior: smooth;
+}
 body *:not(svg,i){
    font-family: 'Arial, sans-serif'!important ;
 }
@@ -14,6 +17,8 @@ a{
 .App {
   text-align: center;
   padding: 20px;
+  top: 60px;
+  position: relative;
 }
 
 section {
@@ -23,11 +28,11 @@ section {
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-.welcome-section {
+.welcome-section ,.work-section , .about-section , .contact-section {
   background: #e8f5e9;
 }
 
-.work-section {
+/* .work-section {
   background: #e8f5e9;
 }
 
@@ -37,11 +42,15 @@ section {
 
 .contact-section {
   background: #e8f5e9;
-}
+} */
 .footer_bx a{
   display: inline-flex;
   align-items: center;
   color: #333;
   gap: 5px;
 
+}
+
+nav{
+  background: #e8f5e9;
 }
