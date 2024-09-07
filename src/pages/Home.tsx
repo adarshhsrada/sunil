@@ -24,7 +24,7 @@ function Home() {
 
     return (
         <div className="App">
-            <Head>
+            {/* <Head>
                 <title>{Content.homePageTitle}</title>
                 <meta name="description" content={Content.homePageDescription} />
                 <script
@@ -39,7 +39,7 @@ function Home() {
                         }),
                     }}
                 />
-            </Head>
+            </Head> */}
             <Navbar/>
             <CssBaseline />
 
